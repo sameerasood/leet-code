@@ -1,6 +1,6 @@
 ### LEET CODE PRACTISE
 
-A repository to practise leet code challneged via Test Driven Development, primarily in JavaScript.
+A repository to practise leet code challenges via Test Driven Development, primarily in JavaScript.
 
 #### Challenge 1
 
