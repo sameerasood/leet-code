@@ -10,4 +10,9 @@ describe("class ArrayConcatenation", () => {
     const arrayConcatenation = new ArrayConcatenation([1, 2]);
     expect(arrayConcatenation.getNewArray()).toEqual([1, 2, 1, 2]);
   });
+
+  it("returns new array with length 6", () => {
+    const arrayConcatenation = new ArrayConcatenation([1, 2, 1]);
+    expect(arrayConcatenation.getNewArray()).toEqual([1, 2, 1, 1, 2, 1]);
+  });
 });
